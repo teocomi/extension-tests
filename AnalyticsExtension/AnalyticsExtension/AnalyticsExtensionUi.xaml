@@ -1,0 +1,18 @@
+﻿<Window x:Class="AnalyticsExtension.AnalyticsExtensionUi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnalyticsExtension"
+        mc:Ignorable="d"
+        Title="AnalyticsExtensionUi" Height="300" Width="300">
+  <Grid Name="MainGrid" 
+          HorizontalAlignment="Stretch"
+          VerticalAlignment="Stretch">
+    <StackPanel Orientation="Vertical">
+      <Button Name="AddNode">CLICK ME</Button>
+      <TextBlock HorizontalAlignment="Stretch" Text="{Binding ActiveNodeTypes}" FontFamily="Arial" Padding="10" FontWeight="Medium" FontSize="18" Background="#2d2d2d" Foreground="White"/>
+
+    </StackPanel>
+     </Grid>
+</Window>
